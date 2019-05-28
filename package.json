@@ -9,7 +9,7 @@
     "webpack-4"
   ],
   "scripts": {
-    "start": "webpack-dashboard -- webpack-dev-server --hot --mode=development --content-base dist/ --inline --progress",
+    "dev": "webpack-dashboard -- webpack-dev-server --hot --mode=development --content-base dist/ --inline --progress",
     "build": "webpack --mode=production",
     "watch": "webpack --watch --progress --colors --display-modules"
   },
