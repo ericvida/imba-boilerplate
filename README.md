@@ -1,4 +1,5 @@
 ![Imba Logo](https://github.com/imba/brand/blob/master/images/logo/png/logo-gold.png?raw=true)
+<br>
 This is an Imba Boilerplate with the following features
 - Imba
 - Webpack 4
