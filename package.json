@@ -1,0 +1,36 @@
+{
+  "name": "imba-boilerplate",
+  "version": "1.0.0",
+  "main": "index.imba",
+  "license": "MIT",
+  "keywords": [
+    "imba",
+    "sass",
+    "webpack-4"
+  ],
+  "scripts": {
+    "start": "webpack-dashboard -- webpack-dev-server --hot --mode=development --content-base dist/ --inline --progress",
+    "build": "webpack --mode=production",
+    "watch": "webpack --watch --progress --colors --display-modules"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "imba-loader": "^2.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dashboard": "^3.0.7",
+    "webpack-dev-server": "^3.4.1",
+    "extract-text-webpack-plugin": "^3.0.2"
+  },
+  "dependencies": {
+    "imba": "^1.4.2",
+    "imba-router": "^0.2.0"
+  }
+}
