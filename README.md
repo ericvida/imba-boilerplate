@@ -1,16 +1,26 @@
-![Imba Logo](https://github.com/imba/brand/blob/master/images/logo/png/logo-gold.png?raw=true)
+
+<img src="https://github.com/imba/brand/blob/master/images/logo/png/logo-gold.png?raw=true" alt="Imba Logo" width=200>
 <br>
-This is an Imba Boilerplate with the following features
+
+Imba Boilerplate with:
 - Imba
 - Webpack 4
 - Hot Module Reloading
 - import 'style.sass|scss' within imba files
 
 ```
-# webpack
-cd imba-boilerplate
-yarn add
+# Clone Project
+git clone http://http://github.com/imba/imba-boilderplate.git my-imba-app
+
+# Go to directory in terminal
+cd my-imba-app
+
+# Install Dependencies
+yarn 
+
+# Run Live Server
 yarn dev
 
 ```
+
 Open up [localhost:1234](http://localhost:1234/)
