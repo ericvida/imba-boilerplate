@@ -10,7 +10,7 @@ Imba Boilerplate with:
 
 ```
 # Clone Project
-git clone http://http://github.com/imba/imba-boilderplate.git my-imba-app
+git clone https://github.com/iamtirado/imba-boilerplate.git my-imba-app
 
 # Go to directory in terminal
 cd my-imba-app
